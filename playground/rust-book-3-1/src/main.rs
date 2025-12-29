@@ -12,8 +12,8 @@ fn main() {
 
     println!("Outer : {x}");
 
-    let mut spaces = "    ";
-    spaces = spaces.len();
+    let spaces = "   ";
+    // spaces = spaces.len(); // this will errored out
 
     println!("{spaces}");
 }
